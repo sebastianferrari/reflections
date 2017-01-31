@@ -1,0 +1,81 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Focusing only in changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Learning about past mistakes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You have total control and tracking over changes. Just the correct quantity of commits.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because, in code for example, you need to keep tracking over a group of files that have interaction between its components.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because I can explore changes without breaking anything.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+
+
+
+
+-Comparing between two files or between two commits
+$ git diff file1 file2
+
+-Viewing log
+$ git log
+
+-Statistics about repo log
+$ git log --stat
+
+-Set colors at diff and other
+$ git config --global color.ui auto
+
+-Config editor
+$ git config --global core.editor "'sublimepath' -n -w"
+
+
+$ git config --global push.default upstream
+$ git config --global merge.conflictstyle diff3
+$ git status
+$ git checkout
+
+-Following command compares working directory and staging area
+$ git diff
+
+-Comparing changes between staging and repository
+$ git diff --staged
+
+-Reseting all changes from working directory and staging area
+$ git reset --hard
+
+$ git log --graph --oneline
+
+-Showing branches
+$ git branch
+
+-Creating a new branch
+$ git branch <new-branch-name>
+
+-Creating a new branch and checking it out at the same time
+$ git checkout -b <new-branch-name>
+
+-Showing only changes between a particular commit and its parent
+$ git show <commit-number>
