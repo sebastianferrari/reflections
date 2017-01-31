@@ -21,7 +21,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    Fill in your answer here
+    Combining both commands getting commit IDs.
 
 How might using version control make you more confident to make changes that
 could break something?
@@ -30,52 +30,4 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
-
-
-
-
-
--Comparing between two files or between two commits
-$ git diff file1 file2
-
--Viewing log
-$ git log
-
--Statistics about repo log
-$ git log --stat
-
--Set colors at diff and other
-$ git config --global color.ui auto
-
--Config editor
-$ git config --global core.editor "'sublimepath' -n -w"
-
-
-$ git config --global push.default upstream
-$ git config --global merge.conflictstyle diff3
-$ git status
-$ git checkout
-
--Following command compares working directory and staging area
-$ git diff
-
--Comparing changes between staging and repository
-$ git diff --staged
-
--Reseting all changes from working directory and staging area
-$ git reset --hard
-
-$ git log --graph --oneline
-
--Showing branches
-$ git branch
-
--Creating a new branch
-$ git branch <new-branch-name>
-
--Creating a new branch and checking it out at the same time
-$ git checkout -b <new-branch-name>
-
--Showing only changes between a particular commit and its parent
-$ git show <commit-number>
+    Current and future jobs.
